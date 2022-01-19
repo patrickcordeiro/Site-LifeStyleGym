@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeStyle Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-cima">
+            <div class="cabecalho-principal">
+                <div class="cabecalho-logo">
+                    <a href="index.html"><img src="public/images/LifeStyleGymVCortado.png" alt="Logo-LSG" id="logo"></a>
+                </div>
+                <div class="cabecalho-pesquisa">
+                    <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite o que você procura">
+                    <img src="public/images/lupa.jpg" alt="pesquisar" class="lupa-pesquisar">
+                </div>
+                <div class="cabecalho-carrinho">
+                    <a href="carrinho.html"><img src="public/images/carrinho.png" alt="Carrinho" id="carrinho"></a>
+                </div>
+                <div class="cabecalho-login">
+                    <a href="login.html" class="login" id="login">Login</a>
+                    <a href="cadastro.html" class="login">Cadastrar</a>
+                </div>
+            </div>
+        </div>
+        <nav class="cabecalho-menu">
+            <div class="cabecalho-itens">
+                <ul> 
+                <li class="cabecalho-categorias">
+                    <input type="checkbox" id="toggle" >
+                    <label  class="checkbox" for="toggle" >
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                    </label>
+                    <label for="toggle" class="checkbox-texto">Menu</label>
+                </li>
+                
+                 
+            
+            
+                <li><a href="suplementos.html">Suplementos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="treino.html">Treino</a></li>
+                <li><a href="dieta.html">Dieta</a></li>
+                <li><a href="roupas.html">Roupas</a></li>
+                <li class="motivacao"><a href="motivacao.html">Motivação</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section class="carrossel">
+            <section class="carousel">
+                <input type="radio" name="carousel" id="carousel1" checked="checked" />
+                <input type="radio" name="carousel" id="carousel2" />
+                <input type="radio" name="carousel" id="carousel3" />
+                <input type="radio" name="carousel" id="carousel4" />
+              
+                <main class="carousel__stage">
+                  <a href="https://www.google.com" class="carousel__item" >
+                    <img class="carousel__image" src="public/images/escolher-a-melhor-academia.jpg" />
+                    <label for="carousel2" class="carousel__next carousel__control"></label>
+                  </a>
+              
+                  <a href="" class="carousel__item">
+                    <label for="carousel1" class="carousel__prev carousel__control"></label>
+                    <img class="carousel__image" src="public/images/banner-2.jpeg" />
+                    <label for="carousel3" class="carousel__next carousel__control"></label>
+                  </a>
+              
+                  <a href="" class="carousel__item">
+                    <label for="carousel2" class="carousel__prev carousel__control"></label>
+                    <img class="carousel__image" src="public/images/banner-3.jpg" />
+                    <label for="carousel4" class="carousel__next carousel__control"></label>
+                  </a>
+              
+                  <a href="" class="carousel__item">
+                    <label for="carousel3" class="carousel__prev carousel__control"></label>
+                    <img class="carousel__image" src="public/images/banner-4.jpg" />
+                  </a>
+                </main>
+              </section>
+            <div class="promocoes">
+                <div class="promocoes-banner-maior">
+                    <div ><img src="public/images/whey-promo.jpg" alt="Whey Isolado" ></div>
+                </div>
+                <div class="promocoes-banner">
+                    <div class="promocoes-banner-menor"><img src="public/images/whey.jpg" alt="Whey Concentrado">
+                    <div class="promocoes-banner-menor-descricao">Whey Protein 1KG</div>
+                    <div class="promocoes-banner-menor-preco">R$ 89,99</div>
+                    <button class="promocoes-banner-menor-botao">Compre Aqui</button>
+                    </div>
+                    
+                    <div class="promocoes-banner-menor"><img src="public/images/pre-treino.jpg" alt="Pré treino C4">
+                    <div class="promocoes-banner-menor-descricao">Pré Treino C4</div>
+                    <div class="promocoes-banner-menor-preco">R$ 145,99</div>
+                    <button class="promocoes-banner-menor-botao">Compre Aqui</button>
+                    </div>
+
+                    <div class="promocoes-banner-menor"><img src="public/images/creatina.jpg" alt="Creatina Darkness"></img>
+                    <div class="promocoes-banner-menor-descricao">Creatina Darkness</div>
+                    <div class="promocoes-banner-menor-preco">R$ 65,00</div>
+                    <button class="promocoes-banner-menor-botao">Compre Aqui</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="blog-banner">
+                <div class="blog-banner-texto">
+                    <h2 class="blog-banner-texto-titulo">Notícias Bodybuilding</h2>
+                </div>
+                <div class="blog-banner-linha"></div>
+                <div class="blog-banner-cards">
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/noticia-1.webp" alt="Ramom Dino Posando">
+                            <div class="blog-banner-tag">
+                                <h3>Notícias</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Ramon Dino se prepara para competir</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/noticia-2.webp" alt="Ronnie Coleman treinando">
+                            <div class="blog-banner-tag">
+                                <h3>Notícias</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Ronnie Coleman comemora seu aumento de peso</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/noticia-3.webp" alt="Arnold foto">
+                            <div class="blog-banner-tag">
+                            <h3>Notícias</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                            <h2>Arnold pede comentário de seus fãs sobre seu boletim informativo</h2>
+                            <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-banner">
+                <div class="blog-banner-texto">
+                    <h2 class="blog-banner-texto-titulo">Dicas de Treino</h2>
+                </div>
+                <div class="blog-banner-linha"></div>
+                <div class="blog-banner-cards">
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dicas-1.jpg" alt="Dores causadas no treino">
+                            <div class="blog-banner-tag">
+                                <h3>Treino</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Posso usar analgésicos para tratar dores causadas no treino?</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dica-2.jpg" alt="Dores na lombar">
+                            <div class="blog-banner-tag">
+                                <h3>Treino</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Dores na lombar ao fazer abdominal. O que fazer?</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dica-3.jpg" alt="Treinamento de glúteos para homens">
+                            <div class="blog-banner-tag">
+                            <h3>Treino</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                            <h2>Guia de treinamento de glúteos para homens</h2>
+                            <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-banner">
+                <div class="blog-banner-texto">
+                    <h2 class="blog-banner-texto-titulo">Dieta</h2>
+                </div>
+                <div class="blog-banner-linha"></div>
+                <div class="blog-banner-cards">
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dieta-1.jpg" alt="Arnold almoçando">
+                            <div class="blog-banner-tag">
+                                <h3>Dieta</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Como era a dieta na era de ouro do fisiculturismo(Era Arnold)</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dieta-2.png" alt="Bulking antes e depois">
+                            <div class="blog-banner-tag">
+                                <h3>Dieta</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>Quando você deve começar o bulking e quando parar</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/dieta-3.jpg" alt="Alimentos ricos em gordura boa">
+                            <div class="blog-banner-tag">
+                            <h3>Dieta</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                            <h2>Comer gordura durante o cutting:<br> 3 benefícios que você não imagina</h2>
+                            <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-banner">
+                <div class="blog-banner-texto">
+                    <h2 class="blog-banner-texto-titulo">Motivação</h2>
+                </div>
+                <div class="blog-banner-linha"></div>
+                <div class="blog-banner-cards">
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/motivação-1.jpg" alt="Motivação arnold">
+                            <div class="blog-banner-tag">
+                                <h3>Motivação</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>As frases mais motivadoras para quem treina pesado</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/motivacao-2.jpg" alt="Bodybuilder foto>
+                            <div class="blog-banner-tag">
+                                <h3>Motivação</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                                <h2>5 coisas que farão você treinar o resto da vida sem desistir</h2>
+                                <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    
+                    <div class="blog-banner-img">
+                        <div>
+                            <img src="public/images/motivacao-3.jpg" alt="Arnold foto">
+                            <div class="blog-banner-tag">
+                            <h3>Motivação</h3>
+                            </div>
+                            <div class="blog-banner-descricao">
+                            <h2>Melhor playlist maromba para treinar - 2021</h2>
+                            <p>Jan 4, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="anuncios">
+            <div class="roupas">
+                <div class="roupas-banner">
+                    <div class="roupas-cards">
+                        <img src="public/images/regata.jpg" alt="regata iron never lies">
+                        <div class="roupas-cards-descricao">Regata The Iron Never Lies</div>
+                        <div class="roupas-cards-preco">R$ 35,00</div>
+                        <button class="roupas-cards-botao">Comprar</button>
+                    </div>
+                    <div class="roupas-cards">
+                        <img src="public/images/calça.png" alt="Calça academia">
+                        <div class="roupas-cards-descricao">Calça Growth</div>
+                        <div class="roupas-cards-preco">R$ 95,00</div>
+                        <button class="roupas-cards-botao">Comprar</button>
+                    </div>
+                    <div class="roupas-cards">
+                        <img src="public/images/bone.png" alt="Boné Growth">
+                        <div class="roupas-cards-descricao">Boné Growth</div>
+                        <div class="roupas-cards-preco">R$ 60,00</div>
+                        <button class="roupas-cards-botao">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-maior">
+            <div class="footer-categorias">
+                <div class="footer-maior-categorias">
+                    <h4 class="footer-maior-categorias-titulo">Institucional</h4>
+                    <div class="footer-maior-categorias-itens"><a href="">Sobre</a></div>
+                    <div class="footer-maior-categorias-itens"><a href="">Fale Conosco</a></div>
+                    <div class="footer-maior-categorias-itens"><a href="">Parceria</a></div>
+                    <div class="footer-maior-categorias-itens"><a href="">Políticas e Termos</a></div>
+                </div>
+                <div class="footer-maior-categorias">
+                    <h4 class="footer-maior-categorias-titulo">Contato</h4>
+                    <div class="footer-maior-categorias-itens"><a href="malito:contato@lifestylegym.com" target="_blank">contato@lifestylegym.com</a></div>
+                    <div class="footer-maior-categorias-itens">+55 11 99999-9999</div>
+                    <div class="footer-maior-categorias-itens">Siga-nos nas Redes Socias</div>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="public/images/facebook.png" alt="facebook">
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="public/images/instagram.png" alt="instagram">
+                        </a>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="public/images/youtube.png" alt="youtube">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="public/images/telegram.png" alt="telegram">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="public/images/spotify.png" alt="spotify">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-maior-categorias">
+                    <h4 class="footer-maior-categorias-titulo">Mapa do Site</h4>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="">Suplementos</a>
+                    </div>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="">Dieta</a>
+                    </div>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="">Treino</a>
+                    </div>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="">Roupas</a>
+                    </div>
+                    <div class="footer-maior-categorias-itens">
+                        <a href="">Motivação</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-menor">
+            <div class="footer-menor-copyright">Copyright © - 2022 - LifeStyleGym - Todos os direitos reservados</div>
+            <div class="footer-menor-direitos">Developed by Patrick Cordeiro Web Designer</div>
+        </div>
+    </footer>
+</body>
+</html>

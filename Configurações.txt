@@ -1,0 +1,7 @@
+Palheta Cores:
+
+.color1 { #fc9653 };
+.color2 { #fca36c };
+.color3 { #823502 };
+.color4 { #828282 };
+.color5 { #bebebe };
